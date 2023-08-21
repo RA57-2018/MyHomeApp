@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  db:
+    image: postgres:14.3
+  realestateapi:
+    image: ${DOCKER_REGISTRY:-realestateapi}/backend:${TAG:-latest}
+    build:
+      context: src/RealEstateApi
+      dockerfile: Dockerfile

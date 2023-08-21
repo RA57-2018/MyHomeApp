@@ -1,0 +1,5 @@
+export enum USER_ENUM {
+    'ADMINISTRATOR' = 1,
+    'REGISTERED',
+    'UNREGISTERED'
+}

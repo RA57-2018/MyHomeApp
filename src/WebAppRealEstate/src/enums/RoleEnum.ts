@@ -1,0 +1,5 @@
+export enum ROLE_ENUM {
+    ADMINISTRATOR = 1,
+    REGISTERED_USER = 2,
+    UNREGISTERED_USER = 3
+};
